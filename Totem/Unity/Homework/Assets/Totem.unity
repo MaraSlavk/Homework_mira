@@ -124,7 +124,7 @@ GameObject:
   - component: {fileID: 320854440}
   - component: {fileID: 320854439}
   m_Layer: 0
-  m_Name: Particle System
+  m_Name: Rings
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -191,7 +191,7 @@ ParticleSystem:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 320854438}
   serializedVersion: 5
-  lengthInSec: 6
+  lengthInSec: 12
   simulationSpeed: 1
   stopAction: 0
   looping: 1
@@ -244,14 +244,14 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -1444096173
+  randomSeed: -1294857211
   InitialModule:
     serializedVersion: 3
     enabled: 1
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 3
+      scalar: 6
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -929,7 +929,7 @@ ParticleSystem:
           m_PostInfinity: 2
           m_RotationOrder: 4
       cycleCount: 6
-      repeatInterval: 1
+      repeatInterval: 2
   SizeModule:
     enabled: 1
     curve:
@@ -943,8 +943,14 @@ ParticleSystem:
         - serializedVersion: 2
           time: 0
           value: 0
-          inSlope: 2
-          outSlope: 2
+          inSlope: 1.196764
+          outSlope: 1.196764
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 0.6464457
+          value: 0.9578496
+          inSlope: 0.4620545
+          outSlope: 0.4620545
           tangentMode: 0
         - serializedVersion: 2
           time: 1
@@ -7104,7 +7110,7 @@ GameObject:
   - component: {fileID: 491646812}
   - component: {fileID: 491646811}
   m_Layer: 0
-  m_Name: Particle System (2)
+  m_Name: Glow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7224,7 +7230,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 1839445091
+  randomSeed: 1201262375
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -14149,7 +14155,7 @@ GameObject:
   - component: {fileID: 849929214}
   - component: {fileID: 849929213}
   m_Layer: 0
-  m_Name: Particle System (1)
+  m_Name: shine_H_center
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14269,7 +14275,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 399226948
+  randomSeed: 1536850591
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -17728,12 +17734,12 @@ GameObject:
   - component: {fileID: 1557140142}
   - component: {fileID: 1557140141}
   m_Layer: 0
-  m_Name: Particle System (3)
+  m_Name: Test
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!199 &1557140141
 ParticleSystemRenderer:
   serializedVersion: 4
@@ -17848,7 +17854,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -844430987
+  randomSeed: -1155665812
   InitialModule:
     serializedVersion: 3
     enabled: 1
