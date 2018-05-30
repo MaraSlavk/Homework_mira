@@ -7,11 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Custom_AB
-<<<<<<< HEAD
-  m_Shader: {fileID: 4800000, guid: 5adc76402f84d4a4a984406a636eb589, type: 3}
-=======
   m_Shader: {fileID: 4800000, guid: 1c4cff5a874c0de45afc933ad8bb6a58, type: 3}
->>>>>>> dde8c4dcd99d8a4eea64d8a3ae24648f235b68c8
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -23,27 +19,10 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-<<<<<<< HEAD
-        m_Texture: {fileID: 2800000, guid: 0cf0592ffbf11134f9a9938b09943ab6, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _node_1469:
-        m_Texture: {fileID: 2800000, guid: 0cf0592ffbf11134f9a9938b09943ab6, type: 3}
-=======
         m_Texture: {fileID: 2800000, guid: 4f1df9001b5fee04fb487ba6591317cd, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _node_4036:
-        m_Texture: {fileID: 2800000, guid: 4f1df9001b5fee04fb487ba6591317cd, type: 3}
->>>>>>> dde8c4dcd99d8a4eea64d8a3ae24648f235b68c8
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _Cutoff: 0.5
     m_Colors:
-<<<<<<< HEAD
-    - _Color: {r: 0.7205882, g: 0.3338019, b: 0.3338019, a: 1}
-    - _node_1302: {r: 1, g: 1, b: 1, a: 1}
-=======
-    - _Color: {r: 1, g: 0, b: 0, a: 1}
->>>>>>> dde8c4dcd99d8a4eea64d8a3ae24648f235b68c8
+    - _Color: {r: 0.9926471, g: 0, b: 0, a: 1}
