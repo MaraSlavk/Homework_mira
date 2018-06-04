@@ -71,9 +71,7 @@ Shader "Custom/Sphere" {
                 float2 node_3836 = (i.uv0+(node_8211.g*float2(_uspeed,_vspeed)));
                 float4 _MainTex_var = tex2D(_MainTex,TRANSFORM_TEX(node_3836, _MainTex));
                 float4 _Mask_var = tex2D(_Mask,TRANSFORM_TEX(i.uv0, _Mask));
-                float3 node_6458 = (_MainTex_var.rgb*_Color.rgb*i.vertexColor.rgb*(_MainTex_var.a*_Mask_var.rgb));
-                float3 node_3193 = (faceSign+_node_554.rgb+_node_554.a);
-                float3 emissive = (node_6458*node_3193);
+                float3 emissive = ((_MainTex_var.rgb*_Color.rgb*i.vertexColor.rgb*(_MainTex_var.a*_Mask_var.rgb))*(faceSign+_node_554.rgb+_node_554.a));
                 float3 finalColor = emissive;
                 fixed4 finalRGBA = fixed4(finalColor,1);
                 UNITY_APPLY_FOG(i.fogCoord, finalRGBA);

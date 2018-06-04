@@ -36,7 +36,7 @@ Material:
     - _unoise: 0.5
     - _uspeed: 0.1
     - _vnoise: 0
-    - _vspeed: -0.12
+    - _vspeed: -0.08
     m_Colors:
     - _Color: {r: 0, g: 0.58823526, b: 0.39350927, a: 1}
     - _node_554: {r: 0, g: 0.2965517, b: 1, a: 1}
