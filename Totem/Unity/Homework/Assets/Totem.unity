@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 67a9a41a1795d5f43b0596c1e2094a0b, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.03692661, g: 0.04106675, b: 0.080034055, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -3747,7 +3747,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -1383339980
+  randomSeed: -1973363303
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -10741,7 +10741,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 1350579076
+  randomSeed: -1724012353
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -28256,10 +28256,9 @@ Animation:
   m_GameObject: {fileID: 712735319}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 2cf9ac2335ef3294891766fe5c23e966, type: 2}
+  m_Animation: {fileID: 7400000, guid: 6f18f3a6d0c5d2d4bb140f3fd1b86d1b, type: 2}
   m_Animations:
   - {fileID: 7400000, guid: 6f18f3a6d0c5d2d4bb140f3fd1b86d1b, type: 2}
-  - {fileID: 7400000, guid: 2cf9ac2335ef3294891766fe5c23e966, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
@@ -35415,7 +35414,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 79677131
+  randomSeed: 1570953493
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -35567,8 +35566,8 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 0.02
-      minScalar: 0.08
+      scalar: 0.05
+      minScalar: 0.1
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -35975,16 +35974,16 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 1
-      scalar: 30
+      scalar: 50
       minScalar: 10
       maxCurve:
         serializedVersion: 2
         m_Curve:
         - serializedVersion: 2
           time: 0
-          value: 0.21951294
-          inSlope: 1.965749
-          outSlope: 1.965749
+          value: 0.2530495
+          inSlope: 2.7055066
+          outSlope: 2.7055066
           tangentMode: 0
         - serializedVersion: 2
           time: 1
@@ -42313,9 +42312,10 @@ Animation:
   m_GameObject: {fileID: 1148253838}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 6f18f3a6d0c5d2d4bb140f3fd1b86d1b, type: 2}
+  m_Animation: {fileID: 7400000, guid: 2cf9ac2335ef3294891766fe5c23e966, type: 2}
   m_Animations:
   - {fileID: 7400000, guid: 6f18f3a6d0c5d2d4bb140f3fd1b86d1b, type: 2}
+  - {fileID: 7400000, guid: 2cf9ac2335ef3294891766fe5c23e966, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
@@ -42464,7 +42464,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 942639359
+  randomSeed: -1313304034
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -56674,7 +56674,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -315434908
+  randomSeed: -1389760784
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -60177,7 +60177,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 10
+      scalar: 12
       minScalar: 5
       maxCurve:
         serializedVersion: 2
