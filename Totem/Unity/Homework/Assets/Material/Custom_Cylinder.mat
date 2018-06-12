@@ -19,16 +19,16 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 0b606c364231b6b4eb7005aa008eca49, type: 3}
-        m_Scale: {x: 4.63, y: 1.34}
+        m_Texture: {fileID: 2800000, guid: 1b8762d0861580241973f07342161e86, type: 3}
+        m_Scale: {x: 3, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mask:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Noise:
-        m_Texture: {fileID: 2800000, guid: 28c7aad1372ff114b90d330f8a2dd938, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 2, y: 0.5}
         m_Offset: {x: 0, y: 0}
     - _NoiseMask:
         m_Texture: {fileID: 0}
@@ -40,9 +40,14 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _Cutoff: 0.5
-    - _NoiseAmmount: 0.963
+    - _NoiseAmmount: 1
+    - _node_1072: 0
+    - _node_3428: 1
+    - _node_4810: 0.877
+    - _node_9023: 1.5
     - _node_932: 0.43
-    - _uspeed: -0.05
+    - _node_9925: 0
+    - _uspeed: 0.02
     - _vspeed: 0
     m_Colors:
-    - _Color: {r: 0, g: 0.7931032, b: 1, a: 1}
+    - _Color: {r: 0, g: 1, b: 0.94190884, a: 1}
