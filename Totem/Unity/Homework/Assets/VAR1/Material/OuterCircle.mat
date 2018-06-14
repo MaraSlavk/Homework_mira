@@ -6,8 +6,8 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: WAVE
-  m_Shader: {fileID: 4800000, guid: d44a0a93fcfc903408cfc3731d5284c9, type: 3}
+  m_Name: OuterCircle
+  m_Shader: {fileID: 4800000, guid: 39afe1192961469468e4b7e1c746bfe6, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -19,30 +19,30 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: d5ab86322e4a8cd45908d21ae2edb0c0, type: 3}
-        m_Scale: {x: 3, y: 0.3}
+        m_Texture: {fileID: 2800000, guid: ee01a5d9ada2fcb448c0c5f020485fc2, type: 3}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mask:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Tex_Noise:
-        m_Texture: {fileID: 2800000, guid: c5a2914ccdebeec4c9c01a3c80a67e7a, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 0.5, y: 2}
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _Cutoff: 0.5
-    - _Noise_strength: 0.005
+    - _Noise_strength: 0
     - _node_4236: 0
     - _node_4332: 0
     - _node_5638: 0.387
     - _node_8664: 1
-    - _noisetex: 0.64
+    - _noisetex: -1
     - _u_speed_noise: 0
     - _uspeed: 0
-    - _v_speed_noise_copy: 0.05
-    - _vspeed: 0.2
+    - _v_speed_noise_copy: 0
+    - _vspeed: 0
     m_Colors:
-    - _Color: {r: 0, g: 0.8565415, b: 0.9338235, a: 1}
+    - _Color: {r: 0, g: 0.6509804, b: 0.35891813, a: 0.183}
     - _node_554: {r: 0.3897059, g: 0.5959433, b: 1, a: 1}
     - _node_8549: {r: 0.5, g: 0.5, b: 0, a: 0}

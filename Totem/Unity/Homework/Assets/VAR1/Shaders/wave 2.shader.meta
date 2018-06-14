@@ -5,9 +5,7 @@ licenseType: Free
 ShaderImporter:
   externalObjects: {}
   defaultTextures:
-  - _MainTex: {fileID: 2800000, guid: 4e09aa891e71d4447b581b5eb95ba2e7, type: 3}
-  - _Mask: {fileID: 2800000, guid: b8e909edc88907d449a81ddd303df727, type: 3}
-  - _Tex_Noise: {fileID: 2800000, guid: c5a2914ccdebeec4c9c01a3c80a67e7a, type: 3}
+  - _MainTex: {fileID: 2800000, guid: 8c7727b27528e1247b217f59ba12d076, type: 3}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
