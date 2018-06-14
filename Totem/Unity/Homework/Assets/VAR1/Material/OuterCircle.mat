@@ -19,7 +19,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: ee01a5d9ada2fcb448c0c5f020485fc2, type: 3}
+        m_Texture: {fileID: 2800000, guid: 11203ab359a219441bd998f0875a4d8c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mask:
@@ -43,6 +43,6 @@ Material:
     - _v_speed_noise_copy: 0
     - _vspeed: 0
     m_Colors:
-    - _Color: {r: 0, g: 0.6509804, b: 0.35891813, a: 0.183}
+    - _Color: {r: 0, g: 0.42647058, b: 0.19984047, a: 0.121}
     - _node_554: {r: 0.3897059, g: 0.5959433, b: 1, a: 1}
     - _node_8549: {r: 0.5, g: 0.5, b: 0, a: 0}

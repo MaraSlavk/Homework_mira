@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: WaveStrings
-  m_Shader: {fileID: 4800000, guid: 7593fb9c378132942bd432ae6fb9b6d5, type: 3}
+  m_Shader: {fileID: 4800000, guid: cfe734b5bfae1bb45bce070636de6e79, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -27,7 +27,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Tex_Noise:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 11203ab359a219441bd998f0875a4d8c, type: 3}
         m_Scale: {x: 1.6, y: -3.17}
         m_Offset: {x: 0, y: 0}
     m_Floats:
@@ -37,12 +37,12 @@ Material:
     - _node_4332: 0
     - _node_5638: 0.387
     - _node_8664: 1
-    - _noisetex: 0.783
-    - _u_speed_noise: 0
+    - _noisetex: 0.51
+    - _u_speed_noise: 0.02
     - _uspeed: 0
     - _v_speed_noise_copy: 0
     - _vspeed: 0.2
     m_Colors:
-    - _Color: {r: 0, g: 0.61375153, b: 0.6911765, a: 0.884}
+    - _Color: {r: 0, g: 0.88798094, b: 1, a: 0.884}
     - _node_554: {r: 0.3897059, g: 0.5959433, b: 1, a: 1}
     - _node_8549: {r: 0.5, g: 0.5, b: 0, a: 0}
