@@ -7,8 +7,8 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: WAVE
-  m_Shader: {fileID: 4800000, guid: d44a0a93fcfc903408cfc3731d5284c9, type: 3}
-  m_ShaderKeywords: 
+  m_Shader: {fileID: 4800000, guid: 4ef4259855d83ee4c8a22b2aa2563f69, type: 3}
+  m_ShaderKeywords: _GREEN_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -31,8 +31,11 @@ Material:
         m_Scale: {x: 0.5, y: 3}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _Blue: 0
     - _Cutoff: 0.5
+    - _Green: 1
     - _Noise_strength: 0.005
+    - _Red: 0
     - _node_4236: 0
     - _node_4332: 0
     - _node_5638: 0.387

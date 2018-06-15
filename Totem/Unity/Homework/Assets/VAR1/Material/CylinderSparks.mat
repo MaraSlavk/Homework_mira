@@ -7,8 +7,8 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: CylinderSparks
-  m_Shader: {fileID: 4800000, guid: 559244a68c98406409f216884998fdfe, type: 3}
-  m_ShaderKeywords: 
+  m_Shader: {fileID: 4800000, guid: 4ef4259855d83ee4c8a22b2aa2563f69, type: 3}
+  m_ShaderKeywords: _RED_ON
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -43,9 +43,12 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _Blue: 0
     - _Cutoff: 0.5
+    - _Green: 0
     - _NoiseAmmount: 1
     - _Noise_strength: 0.019
+    - _Red: 1
     - _node_1072: 0
     - _node_3428: 1
     - _node_4810: 0.877
@@ -58,4 +61,4 @@ Material:
     - _v_speed_noise_copy: 0
     - _vspeed: 0
     m_Colors:
-    - _Color: {r: 0, g: 1, b: 0.94190884, a: 1}
+    - _Color: {r: 0, g: 2, b: 1.8838177, a: 1}

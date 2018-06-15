@@ -1,13 +1,12 @@
 // Shader created with Shader Forge v1.38 
 // Shader Forge (c) Neat Corporation / Joachim Holmer - http://www.acegikmo.com/shaderforge/
 // Note: Manually altering this data may prevent you from opening it in Shader Forge
-/*SF_DATA;ver:1.38;sub:START;pass:START;ps:flbk:diffuse,iptp:0,cusa:False,bamd:0,cgin:,lico:1,lgpr:1,limd:0,spmd:1,trmd:0,grmd:0,uamb:True,mssp:True,bkdf:False,hqlp:False,rprd:False,enco:False,rmgx:True,imps:True,rpth:0,vtps:0,hqsc:True,nrmq:1,nrsp:0,vomd:0,spxs:False,tesm:0,olmd:1,culm:2,bsrc:3,bdst:7,dpts:2,wrdp:False,dith:0,atcv:False,rfrpo:True,rfrpn:Refraction,coma:15,ufog:True,aust:True,igpj:True,qofs:0,qpre:3,rntp:2,fgom:False,fgoc:False,fgod:False,fgor:False,fgmd:0,fgcr:0.5,fgcg:0.5,fgcb:0.5,fgca:1,fgde:0.01,fgrn:0,fgrf:300,stcl:False,atwp:False,stva:128,stmr:255,stmw:255,stcp:6,stps:0,stfa:0,stfz:0,ofsf:0,ofsu:0,f2p0:False,fnsp:False,fnfb:False,fsmp:False;n:type:ShaderForge.SFN_Final,id:2854,x:33256,y:32738,varname:node_2854,prsc:2|emission-5040-OUT,alpha-1947-OUT;n:type:ShaderForge.SFN_Tex2d,id:5818,x:32667,y:32992,ptovrint:False,ptlb:MainTex,ptin:_MainTex,varname:node_5818,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,ntxv:0,isnm:False;n:type:ShaderForge.SFN_Color,id:8612,x:32667,y:32814,ptovrint:False,ptlb:Color,ptin:_Color,varname:node_8612,prsc:2,glob:False,taghide:False,taghdr:True,tagprd:False,tagnsco:False,tagnrm:False,c1:0.5,c2:0.5,c3:0.5,c4:1;n:type:ShaderForge.SFN_Multiply,id:1947,x:33008,y:33132,varname:node_1947,prsc:2|A-5818-R,B-4467-A;n:type:ShaderForge.SFN_Multiply,id:5040,x:32995,y:32890,varname:node_5040,prsc:2|A-5818-R,B-8612-RGB,C-4467-RGB,D-8612-A;n:type:ShaderForge.SFN_VertexColor,id:4467,x:32667,y:33184,varname:node_4467,prsc:2;n:type:ShaderForge.SFN_ComponentMask,id:7370,x:33098,y:32930,varname:node_7370,prsc:2,cc1:0,cc2:-1,cc3:-1,cc4:-1;proporder:5818-8612;pass:END;sub:END;*/
+/*SF_DATA;ver:1.38;sub:START;pass:START;ps:flbk:diffuse,iptp:0,cusa:False,bamd:0,cgin:,lico:1,lgpr:1,limd:0,spmd:1,trmd:0,grmd:0,uamb:True,mssp:True,bkdf:False,hqlp:False,rprd:False,enco:False,rmgx:True,imps:True,rpth:0,vtps:0,hqsc:True,nrmq:1,nrsp:0,vomd:0,spxs:False,tesm:0,olmd:1,culm:2,bsrc:0,bdst:0,dpts:2,wrdp:False,dith:0,atcv:False,rfrpo:True,rfrpn:Refraction,coma:15,ufog:True,aust:True,igpj:True,qofs:0,qpre:3,rntp:2,fgom:False,fgoc:False,fgod:False,fgor:False,fgmd:0,fgcr:0.5,fgcg:0.5,fgcb:0.5,fgca:1,fgde:0.01,fgrn:0,fgrf:300,stcl:False,atwp:False,stva:128,stmr:255,stmw:255,stcp:6,stps:0,stfa:0,stfz:0,ofsf:0,ofsu:0,f2p0:False,fnsp:False,fnfb:False,fsmp:False;n:type:ShaderForge.SFN_Final,id:2854,x:33256,y:32738,varname:node_2854,prsc:2|emission-5040-OUT;n:type:ShaderForge.SFN_Tex2d,id:5818,x:32667,y:33007,ptovrint:False,ptlb:MainTex,ptin:_MainTex,varname:node_5818,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,ntxv:0,isnm:False;n:type:ShaderForge.SFN_Color,id:8612,x:32667,y:32814,ptovrint:False,ptlb:Color,ptin:_Color,varname:node_8612,prsc:2,glob:False,taghide:False,taghdr:True,tagprd:False,tagnsco:False,tagnrm:False,c1:0.5,c2:0.5,c3:0.5,c4:1;n:type:ShaderForge.SFN_Multiply,id:5040,x:32994,y:32866,varname:node_5040,prsc:2|A-5818-R,B-8612-RGB,C-4467-RGB,D-4467-A,E-8612-A;n:type:ShaderForge.SFN_VertexColor,id:4467,x:32667,y:33184,varname:node_4467,prsc:2;proporder:5818-8612;pass:END;sub:END;*/
 
-Shader "Custom/REDChanelAB" {
+Shader "Custom/REDChanel" {
     Properties {
         _MainTex ("MainTex", 2D) = "white" {}
         [HDR]_Color ("Color", Color) = (0.5,0.5,0.5,1)
-        [HideInInspector]_Cutoff ("Alpha cutoff", Range(0,1)) = 0.5
     }
     SubShader {
         Tags {
@@ -21,7 +20,7 @@ Shader "Custom/REDChanelAB" {
             Tags {
                 "LightMode"="ForwardBase"
             }
-            Blend SrcAlpha OneMinusSrcAlpha
+            Blend One One
             Cull Off
             ZWrite Off
             
@@ -61,9 +60,9 @@ Shader "Custom/REDChanelAB" {
 ////// Lighting:
 ////// Emissive:
                 float4 _MainTex_var = tex2D(_MainTex,TRANSFORM_TEX(i.uv0, _MainTex));
-                float3 emissive = (_MainTex_var.r*_Color.rgb*i.vertexColor.rgb*_Color.a);
+                float3 emissive = (_MainTex_var.r*_Color.rgb*i.vertexColor.rgb*i.vertexColor.a*_Color.a);
                 float3 finalColor = emissive;
-                fixed4 finalRGBA = fixed4(finalColor,(_MainTex_var.r*i.vertexColor.a));
+                fixed4 finalRGBA = fixed4(finalColor,1);
                 UNITY_APPLY_FOG(i.fogCoord, finalRGBA);
                 return finalRGBA;
             }
